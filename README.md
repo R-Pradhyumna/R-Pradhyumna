@@ -60,7 +60,7 @@ Applications I’ve built are used by **250+ users**, and my work has been publi
 
 Examination management platform built using **React, Supabase, and PostgreSQL**, serving **250+ users across 4 administrative roles at MIT Mysore**.
 
-[View Repository](https://github.com/R-Pradhyumna/ExamSuite)
+[View Repository](https://github.com/R-Pradhyumna/EMS-MITM)
 
 **Key Features**
 
