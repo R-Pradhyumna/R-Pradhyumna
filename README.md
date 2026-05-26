@@ -58,48 +58,53 @@ Applications I’ve built are used by **250+ users**, and my work has been publi
 
 ### ExamSuite
 
-Examination management platform built using **React, Supabase, and PostgreSQL**, serving **250+ users across 4 administrative roles at MIT Mysore**.
+**Repository:** [EMS-MITM](https://github.com/R-Pradhyumna/EMS-MITM)
 
-[View Repository](https://github.com/R-Pradhyumna/EMS-MITM)
+Enterprise-grade examination management platform built using **React.js, Supabase, and PostgreSQL** to streamline academic workflows for **250+ users across 4 administrative roles** at MIT Mysore.
 
-**Key Features**
-
-- Implemented **role-based access control** using Supabase **Row-Level Security policies**
-- Designed automated **exam paper submission and review workflow**
-- Integrated **email notifications** for workflow updates
-- System architecture and implementation published in **IJRDET (Volume 14, Issue 11, 2025)**
+- Implemented secure **Role-Based Access Control (RBAC)** using **Supabase Row Level Security (RLS)** to protect confidential examination documents and workflows.
+- Designed and automated the complete **submission, approval, and review lifecycle** for examination papers.
+- Built a scalable multi-role workflow system supporting faculty, CoE, BoE, and administrative coordination.
+- Focused on secure backend architecture, workflow automation, and production-ready database design.
 
 ---
 
-### Innovata
+### Timetable Scheduler
 
-Centralized platform for showcasing **100+ student and faculty projects**.
+**Repository:** [Timetable-generator](https://github.com/R-Pradhyumna/Timetable-generator)
 
-[Live Demo](https://innovata-ise.netlify.app/)
+Constraint-based timetable generation system developed using **C++, Google OR-Tools (CP-SAT), Next.js, Node.js, and Supabase**.
 
-**Key Features**
-
-- Built using **React, React Router, and PapaParse**
-- Integrated **Google Sheets and Google Drive APIs** as a no-code content management system
-- Eliminated need for code deployments for content updates
-- Implemented **dynamic filtering by scheme and project phase**
-- Fully responsive **single-page application architecture**
+- Architected a custom scheduling engine capable of generating **conflict-free academic timetables** while handling complex faculty, classroom, and laboratory constraints.
+- Integrated the C++ scheduling engine with a modern **Next.js + Supabase frontend** through a Node.js bridge.
+- Built a custom JSON parser to support dynamic scheduling configurations.
+- Validated scheduling correctness and strict constraint satisfaction through **75 automated tests**.
 
 ---
 
-### Infosphere
+### Communication Systems Visualizer
 
-Department club management portal used by **Sports, Technical, and Cultural clubs of ISE MIT Mysore**.
+**Repository:** [Visualizer](https://github.com/R-Pradhyumna/Visualizer)
 
-[Live Demo](https://infosphere-ise.netlify.app/)
+High-performance digital signal processing and visualization suite built using **JavaScript and WebGL**.
 
-**Key Features**
+- Developed a zero-dependency waveform rendering engine using **Float32Array buffers** to process and render real-time signal data at a stable **60 FPS**.
+- Built interactive simulators for modulation techniques, Nyquist sampling, bit boundaries, and frequency aliasing.
+- Implemented custom charting and visualization algorithms for dynamic real-time signal analysis.
+- Optimized rendering performance for smooth visualization of complex time-domain waveforms.
 
-- Built with **React and Tailwind CSS**
-- Architected **hybrid CMS system using Google Sheets and Google Drive**
-- Designed system to simplify **non-technical faculty administration**
-- Implemented **performance optimizations including compression and code splitting**
-- Led the **technical architecture and implementation**
+---
+
+### Work Location Tracker
+
+**Repository:** [Work-location-tracker](https://github.com/R-Pradhyumna/work-location-tracker)
+
+Full-stack workforce location tracking application developed using **React.js, Express.js, and PostgreSQL**.
+
+- Designed a scalable backend architecture using the **controller-service-repository pattern**.
+- Implemented secure authentication using **JWT, HTTP-only cookies, bcrypt, and RBAC authorization**.
+- Built calendar-based analytics and tracking workflows for workforce monitoring.
+- Focused on maintainable backend architecture, secure session handling, and scalable API design.
 
 ---
 
