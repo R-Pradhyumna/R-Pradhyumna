@@ -1,10 +1,6 @@
 # R Pradhyumna
 
-Full-Stack Developer building scalable web applications using **React, Node.js, Supabase, and PostgreSQL**.
-
-I design secure role-based systems, build production-ready applications, and translate real-world requirements into maintainable engineering solutions.
-
-Applications I’ve built are used by **250+ users**, and my work has been published in **IJRDET (2025)**.
+Software engineer who enjoys building reliable systems that simplify complex operational workflows through thoughtful system design, backend engineering, and infrastructure automation, with a strong interest in databases, optimization, and scalable software architecture.
 
 ---
 
@@ -17,7 +13,7 @@ Applications I’ve built are used by **250+ users**, and my work has been publi
 
 ---
 
-## Tech Stack
+## Skills
 
 ### Frontend
 <p align="center">
@@ -60,12 +56,10 @@ Applications I’ve built are used by **250+ users**, and my work has been publi
 
 **Repository:** [EMS-MITM](https://github.com/R-Pradhyumna/EMS-MITM)
 
-Enterprise-grade examination management platform built using **React.js, Supabase, and PostgreSQL** to streamline academic workflows for **250+ users across 4 administrative roles** at MIT Mysore.
-
-- Implemented secure **Role-Based Access Control (RBAC)** using **Supabase Row Level Security (RLS)** to protect confidential examination documents and workflows.
-- Designed and automated the complete **submission, approval, and review lifecycle** for examination papers.
-- Built a scalable multi-role workflow system supporting faculty, CoE, BoE, and administrative coordination.
-- Focused on secure backend architecture, workflow automation, and production-ready database design.
+- Streamlined question paper workflows for 250+ institutional users by engineering a centralized examination platform that replaced fragmented Google Forms, with the solution receiving a Principal’s Letter of Appreciation for improving examination workflow security.
+- Implemented advanced Row-Level Security (RLS) policies and RBAC to enforce strict data isolation, preventing unauthorized cross-role access to sensitive examination data.
+- Architected a normalized PostgreSQL schema with 7 relational tables, workflow-driven state transitions, and database 
+triggers to enforce secure paper lifecycle management while maintaining a centralized audit trail.
 
 ---
 
@@ -73,25 +67,9 @@ Enterprise-grade examination management platform built using **React.js, Supabas
 
 **Repository:** [Timetable-generator](https://github.com/R-Pradhyumna/Timetable-generator)
 
-Constraint-based timetable generation system developed using **C++, Google OR-Tools (CP-SAT), Next.js, Node.js, and Supabase**.
-
-- Architected a custom scheduling engine capable of generating **conflict-free academic timetables** while handling complex faculty, classroom, and laboratory constraints.
-- Integrated the C++ scheduling engine with a modern **Next.js + Supabase frontend** through a Node.js bridge.
-- Built a custom JSON parser to support dynamic scheduling configurations.
-- Validated scheduling correctness and strict constraint satisfaction through **75 automated tests**.
-
----
-
-### Communication Systems Visualizer
-
-**Repository:** [Visualizer](https://github.com/R-Pradhyumna/Visualizer)
-
-High-performance digital signal processing and visualization suite built using **JavaScript and WebGL**.
-
-- Developed a zero-dependency waveform rendering engine using **Float32Array buffers** to process and render real-time signal data at a stable **60 FPS**.
-- Built interactive simulators for modulation techniques, Nyquist sampling, bit boundaries, and frequency aliasing.
-- Implemented custom charting and visualization algorithms for dynamic real-time signal analysis.
-- Optimized rendering performance for smooth visualization of complex time-domain waveforms.
+- Eliminated hours of manual timetable preparation by developing an automated academic scheduling system using Google OR-Tools CP-SAT, generating deployment-ready timetables in 4–5 seconds per section with 85–90% scheduling completeness.
+- Prevented critical faculty double-booking and cross-section conflicts by engineering a custom C++ constraint solver supporting 9 hard scheduling constraints, validated through a robust suite of 75 automated tests.
+- Architected a scalable optimization platform integrating a C++ CP-SAT solver with Next.js APIs, React, PostgreSQL, and Supabase to support efficient multi-section timetable generation for academic institutions.
 
 ---
 
@@ -99,12 +77,20 @@ High-performance digital signal processing and visualization suite built using *
 
 **Repository:** [Work-location-tracker](https://github.com/R-Pradhyumna/work-location-tracker)
 
-Full-stack workforce location tracking application developed using **React.js, Express.js, and PostgreSQL**.
+- Resolved hybrid workplace communication bottlenecks by developing an enterprise location management platform, reducing daily status updates to under one minute while providing managers with real-time workforce analytics.
+- Engineered a scalable Express.js and PostgreSQL backend following a strict Controller–Service–Repository architecture, exposing 9 REST API endpoints to manage role-based access across four workplace states (WFO, WFH, Leave, Holiday).
+- Strengthened application security by implementing JWT authentication with HTTP-only cookies and bcrypt password hashing, while improving frontend load performance through lazy-loaded routing across 7 protected pages.
 
-- Designed a scalable backend architecture using the **controller-service-repository pattern**.
-- Implemented secure authentication using **JWT, HTTP-only cookies, bcrypt, and RBAC authorization**.
-- Built calendar-based analytics and tracking workflows for workforce monitoring.
-- Focused on maintainable backend architecture, secure session handling, and scalable API design.
+---
+
+### Communication Systems Visualizer
+
+**Repository:** [Visualizer](https://github.com/R-Pradhyumna/Visualizer)
+
+- Replaced static whiteboard waveform drawings for EC&E faculties with a browser-based visualizer enabling real-time 
+demonstrations across analog modulation, digital modulation, and Nyquist sampling.
+- Built 3 modular visualization engines using JavaScript and Plotly.js, enabling reusable real-time waveform rendering on a fully client-side architecture with zero backend dependency.
+- Translated communication systems theory into accurate interactive waveform simulations that were subsequently used by faculty for classroom demonstrations and formula verification.
 
 ---
 
